@@ -13,6 +13,8 @@ ul li a {
     align-items: center;
     width: 1144px;
     margin: auto;
+    
+    padding: 40px 0px;
 }
 
 .navigation-links {
@@ -88,7 +90,24 @@ ul li a {
     background-color: #FD6E0A;
 
 }
+/* fonts awersome */
+.fa-solid .fa-download{
+   width: 18px;
+   height: 18px;
+   color: #FFFFFF;
+   font-weight: 1.5;
+   position: center;
+}
+.fa-solid .fa-phone{
+    width: 24px;
+    height: 24px;
+    color: #FD6E0A;
+}
 
+*{
+    margin: 0px;
+    padding: 0px;
+}
 /* .dev-text {
     position: absolute;
     left: -200px;
@@ -103,18 +122,35 @@ header {
    background-image: url("images/developer.png"),url("images/header_bg.png");
    background-repeat: no-repeat;
   background-position: top left,bottom right;
+  background-color: #FFF8F3;
+  margin-bottom: 150px;
 }
 
 /* Head banner for display flex */
 .banner {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin: 0px 35px 0px 200px;
+    
 }
 
 /* setting banner width and height */
 .banner-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    gap: 20px;
     max-width: 580px;
+
+}
+.banner-content div{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+    gap: 20px;
 }
 
 /* banner text style */
@@ -132,4 +168,50 @@ header {
 .banner-profile-picture {
     width: 584px;
     height: 676px;
+}
+.About-section{
+    width: 1140px;
+    margin: auto;
+    background-color: #FFF8F3;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* arrow is use for to select imediate div > */
+.About-section > div{
+    text-align: center;
+    padding: 10px;
+    /* align-items: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 830px;
+    margin: auto;
+    gap: 30px;
+    background-color: white;
+    border: 2px solid black;
+}
+.Person-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+/* experience */
+.experience-head-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.experience-conter{
+    width: 909px;
+    line-height: 30px;
+    font-size: 18px;
+    color: #757575;
 }
