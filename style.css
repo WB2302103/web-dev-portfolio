@@ -1,0 +1,135 @@
+ul li {
+    list-style: none;
+
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+.navigation-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1144px;
+    margin: auto;
+}
+
+.navigation-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.navigation-links ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+/* text font */
+
+.open-sans-Extrabold {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: bolder;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.open-sans-bold {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: bold;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.open-sans-semibold {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600px;
+    font-style: 600px;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.open-sans-regular {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.navigation-section h1 {
+    font-size: 45px;
+}
+
+.navigation-section h1 span {
+    color: #FD6E0A;
+}
+
+.navigation-links ul li a {
+    color: #474747;
+}
+
+.primary-btn {
+    width: 150px;
+    height: 64px;
+    font-size: 20px;
+    border-radius: 5%;
+    border: none;
+    color: #FFFFFF;
+    background-color: #FD6E0A;
+
+}
+
+/* .dev-text {
+    position: absolute;
+    left: -200px;
+    rotate: 270deg;
+    top: 130px;
+    font-size: 100px;
+    color: rgba(0, 0, 0, 0.19);
+    z-index: 10;
+} */
+
+header {
+   background-image: url("images/developer.png"),url("images/header_bg.png");
+   background-repeat: no-repeat;
+  background-position: top left,bottom right;
+}
+
+/* Head banner for display flex */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 35px 0px 200px;
+}
+
+/* setting banner width and height */
+.banner-content {
+    max-width: 580px;
+}
+
+/* banner text style */
+.banner-greetings {
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.banner-title {
+    color: #181818;
+    font-size: 85px;
+}
+
+.banner-profile-picture {
+    width: 584px;
+    height: 676px;
+}
