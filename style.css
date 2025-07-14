@@ -207,6 +207,7 @@ header {
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin: 0px auto;
     
 }
 .experience-conter{
@@ -214,4 +215,80 @@ header {
     line-height: 30px;
     font-size: 18px;
     color: #757575;
+}
+.Head-Card-Container
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   margin-top: 30px;
+    border-radius: 5px;
+  
+
+}
+ /* card */
+ .card{
+    background-color: #ededed96;
+    box-shadow: #d2bdbd;
+    margin:0px auto;
+ }
+ .card h1{
+  font-size: 20px;
+  line-height: auto;
+  margin-bottom: 20px;
+  color: #181818;
+ 
+ }
+ .card p{
+ width: 201px;
+ font-size: 16px;
+ line-height: 28px;
+ color: #757575;
+ }
+ .card h1 p{
+     background-color: #494646e6;
+ }
+ /* resume */
+ .resume-heading{
+    font-size: 35px;
+    line-height: auto; 
+     text-align: center;
+   
+ }
+ .Resume{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+.education-heading h1 
+{
+    font-size: 30px;
+    line-height: auto;
+    color: #474747;
+}
+.First-degree h1
+{
+    font-size: 25px;
+    line-height: auto;
+    color: #343333;
+    font-weight: 600;
+}
+.First-degree{
+    width: 511px;
+    margin: 0px auto;
+}
+.First-degree h2
+{
+font-size: 20px;
+line-height: auto;
+color: #757575;
+}
+.First-degree p{
+    width: 511px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+}
+.First-hr{
+    width: 558px;
 }
