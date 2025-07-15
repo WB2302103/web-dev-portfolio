@@ -228,9 +228,10 @@ header {
 }
  /* card */
  .card{
-    background-color: #ededed96;
-    box-shadow: #d2bdbd;
+    background-color: #FFFFFF;
     margin:0px auto;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    padding: 20px;
  }
  .card h1{
   font-size: 20px;
@@ -248,8 +249,7 @@ header {
  .card h1 p{
      background-color: #494646e6;
  }
- /* resume */
- .resume-heading{
+ /* .resume-heading h1{
     font-size: 35px;
     line-height: auto; 
      text-align: center;
@@ -260,35 +260,133 @@ header {
     justify-content: space-between;
     align-items: center;
  }
-.education-heading h1 
-{
+.Firsthori hr{
+    width: 558px;
+    position:center;
+}
+.education-heading h1{
+    font-size: 30px;
+    line-height: auto;
+    color: #474747;
+    position: 230px 2533px;
+}
+.Experience-head{
+   margin-top: 130px;
+   width: 1140px;
+   margin: 0px auto;
+}
+.Experience-heading h1{
     font-size: 30px;
     line-height: auto;
     color: #474747;
 }
-.First-degree h1
-{
+.First-degree h1{
     font-size: 25px;
     line-height: auto;
-    color: #343333;
+    color:#474747;
+}
+.experience h1{
+    font-size: 25px;
+    line-height: auto;
+    color:#474747;
+}
+.First-degree h2{
+    font-size: 20px;
+    line-height: auto;
+    color: #474747;
     font-weight: 600;
 }
-.First-degree{
-    width: 511px;
-    margin: 0px auto;
+.experience h2{
+    font-size: 20px;
+    line-height: auto;
+    color: #474747;
+    font-weight: 600;
 }
-.First-degree h2
-{
-font-size: 20px;
-line-height: auto;
-color: #757575;
-}
+
 .First-degree p{
-    width: 511px;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 28px;
     color: #757575;
+    width: 511px;
 }
-.First-hr{
+.experience p{
+    font-size: 18px;
+    line-height: 28px;
+    color: #757575;
+    width: 511px;
+} */
+/* resume */
+.summray-heading h1{
+    font-size: 35px;
+    color: #181818;
+    line-height: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.resume{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px auto;
+    margin-top: 30px;
+}
+.education{
+    width: 511px;
+    height: 175px;
+    margin: 0px auto;
+}
+.experience{
+    width: 511px;
+    height: 175px;
+    margin: 0px auto;
+}
+.education-heading{
+  font-size: 30px;
+  color: #474747;
+  line-height: auto;
+}
+.experience-heading{
+  font-size: 30px;
+  color: #474747;
+  line-height: auto;
+}
+.education-text1 h1{
+   font-size: 25px;
+   color: #474747;
+   line-height: auto;
+}
+.experence-text1 h1{
+   font-size: 25px;
+   color: #474747;
+   line-height: auto;
+}
+.education-text1 h2{
+   font-size: 20px;
+   color: #474747;
+   line-height: auto;
+   font-weight: 600;
+}
+.experence-text1 h2{
+   font-size: 20px;
+   color: #474747;
+   line-height: auto;
+   font-weight: 600;
+}
+.education-text1 p{
+   font-size: 16px;
+   color: #474747;
+   line-height: 28px;
+}
+.experence-text1 p{
+   font-size: 16px;
+   color: #474747;
+   line-height: 28px;
+}
+hr{
     width: 558px;
+}
+.btn{
+    margin: 10px 10px 10px;
 }
