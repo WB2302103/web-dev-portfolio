@@ -334,12 +334,12 @@ header {
 }
 .education{
     width: 511px;
-    height: 175px;
+   
     margin: 0px auto;
 }
 .experience{
     width: 511px;
-    height: 175px;
+   
     margin: 0px auto;
 }
 .education-heading{
@@ -351,6 +351,9 @@ header {
   font-size: 30px;
   color: #474747;
   line-height: auto;
+}
+.education-text1,.experence-text1{
+    margin:20px 0px ;
 }
 .education-text1 h1{
    font-size: 25px;
@@ -388,5 +391,54 @@ hr{
     width: 558px;
 }
 .btn{
-    margin: 10px 10px 10px;
+   
 }
+.buttonbs{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+.footer-background{
+    margin-top: 20px;
+    background-color: #FFF8F3;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-content,.footer-heading{
+   display: flex;
+    gap: 10px;
+    flex-direction: column;
+     margin: 0px auto;
+    
+}
+.footer-content h1,.footer-heading h1{
+    font-size: 35px;
+    line-height: auto;
+    color: #181818;
+    padding: 10px;
+    
+}
+.footer-content p,.footer-container p,.footer-container2 p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #474747;
+    padding: 10px;
+}
+.footer-container{
+     border-radius:5px;
+     background-color: #FFFFFF;
+
+}
+.footer-container2 {
+    height: 180px;
+    background-color: #ffffff;
+}
+.bts{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: right;
+    margin-bottom: 10px;
+}
+
